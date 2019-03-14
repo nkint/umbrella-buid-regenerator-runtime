@@ -1,0 +1,37 @@
+{
+  "name": "woodskin-folio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "clean": "rm -rf dist .cache",
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html  --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nkint",
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.25%",
+      "not ie 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 Chrome version"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "parcel": "^1.11.0",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@thi.ng/geom-poly-utils": "^0.1.6",
+    "@thi.ng/matrices": "^0.1.9",
+    "@thi.ng/transducers": "^5.1.2",
+    "@thi.ng/vectors": "^2.4.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-runtime": "^6.26.0"
+  }
+}
